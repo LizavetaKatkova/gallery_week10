@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.image {
+    width: 30vw;
+}
+
+button {
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        transition: .2s linear;
+        background: #56657d;
+}
+    
+button:hover {
+        box-shadow: 0 0 0 2px rgb(132, 157, 203), 0 0 0 4px #7d8ca5;
+}
+
+
